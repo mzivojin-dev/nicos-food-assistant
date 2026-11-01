@@ -26,7 +26,7 @@ To enable order notifications, set `ORDER_WEBHOOK_URL` as a Pages secret. The ap
 
 ## GitHub Actions deployment
 
-The workflow in `.github/workflows/deploy.yml` applies D1 migrations and publishes the Pages site on pushes to `main`. Add `CLOUDFLARE_API_TOKEN` as a GitHub Actions secret and `CLOUDFLARE_ACCOUNT_ID` as a repository variable. The token needs permission to deploy Pages and manage D1 migrations. Configure the database ID and Pages project once before enabling the workflow.
+The workflow in `.github/workflows/deploy.yml` applies D1 migrations and publishes the Pages site on pushes to `main`. Add `CLOUDFLARE_API_TOKEN` as a GitHub Actions secret and `CLOUDFLARE_ACCOUNT_ID` as a repository variable. The token needs permission to deploy Pages and manage D1 migrations. Configure the real database ID in `wrangler.jsonc`, create the Pages project and R2 bucket, and ensure the bucket name matches the `IMAGES` binding before enabling the workflow.
 
 ## Facebook menu import
 
