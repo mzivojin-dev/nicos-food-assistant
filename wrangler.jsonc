@@ -6,8 +6,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "nicos-food",
-      "database_id": "67aa379f-38ad-4322-931d-a2de2838a454"
+      "database_name": "nicos-food-db",
+      "database_id": "a481cd83-b0c9-4bf4-9b65-395174b1715f"
     }
   ],
   "r2_buckets": [
