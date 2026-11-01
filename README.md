@@ -28,8 +28,4 @@ To enable order notifications, set `ORDER_WEBHOOK_URL` as a Pages secret. The ap
 
 The workflow in `.github/workflows/deploy.yml` applies D1 migrations and publishes the Pages site on pushes to `main`. Add `CLOUDFLARE_API_TOKEN` as a GitHub Actions secret and `CLOUDFLARE_ACCOUNT_ID` as a repository variable. The token needs permission to deploy Pages and manage D1 migrations. Configure the real database ID in `wrangler.jsonc`, create the Pages project and R2 bucket, and ensure the bucket name matches the `IMAGES` binding before enabling the workflow.
 
-## Facebook menu import
-
-The public Facebook page identifies Nico's Food in Kitchener and describes traditional Romanian and European food, but its October 2026 post feed was not publicly readable during setup. No dishes or photos have been invented or copied from unrelated sample content. Add verified items through `/admin` once the Facebook post links, screenshots, or an export are available. Facebook-hosted photo URLs may expire; prefer stable HTTPS image URLs.
-
 Orders are pickup requests, not payments. The owner session uses signed, HttpOnly cookies; do not commit `.dev.vars` or expose secrets in frontend files.
