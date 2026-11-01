@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "name": "Colac din aluat de cozonac pentru parastas! / Romanian ceremonial sweet bread",
+      "description": "Traditional Romanian ceremonial bread made from cozonac dough for a parastas (memorial service).",
+      "priceCents": 5000,
+      "category": "Bakery",
+      "imageUrl": "/images/menu/colac-din-aluat-de-cozonac.jpg",
+      "id": "adf1453c-1b7c-48f6-9f09-2d14ee305d55",
+      "available": true,
+      "createdAt": "2026-11-01T20:30:00.000Z"
+    }
+  ],
+  "orders": []
+}

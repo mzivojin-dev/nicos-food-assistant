@@ -1,0 +1,9 @@
+.env
+data/
+!data/
+data/*
+!data/store.json
+node_modules/
+npm-debug.log*
+.dev.vars
+.wrangler/

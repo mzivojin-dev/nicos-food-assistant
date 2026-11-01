@@ -1,0 +1,24 @@
+{
+  "name": "nicos-food",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Nico's Food online menu and catering orders",
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "deploy": "wrangler pages deploy public --project-name=nicos-food",
+    "db:create": "wrangler d1 create nicos-food-db",
+    "db:migrate:local": "wrangler d1 migrations apply nicos-food-db --local",
+    "db:migrate:remote": "wrangler d1 migrations apply nicos-food-db --remote",
+    "db:seed:local": "node scripts/migrate-store.js --local",
+    "db:seed:remote": "node scripts/migrate-store.js --remote",
+    "db:replace-menu:local": "node scripts/migrate-store.js --local --replace-menu",
+    "db:replace-menu:remote": "node scripts/migrate-store.js --remote --replace-menu"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "devDependencies": {
+    "wrangler": "^4.156.0"
+  }
+}

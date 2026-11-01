@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f2eb">
+    <title>Owner dashboard | Nico's Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/admin.js" defer></script>
+  </head>
+  <body class="admin-page">
+    <header class="site-header admin-header">
+      <a class="wordmark" href="/" aria-label="Nico's Food home"><span class="wordmark-mark">N</span><span>Nico's Food</span></a>
+      <a class="back-link" href="/">← View public menu</a>
+    </header>
+    <main class="admin-main">
+      <section id="login-view" class="login-view" hidden>
+        <p class="eyebrow"><span></span> Nico's Food · Owner access</p>
+        <h1>Welcome back<span class="heading-period">.</span></h1>
+        <p class="admin-lede">Sign in to keep the menu fresh and see what's on order.</p>
+        <form id="login-form" class="owner-form">
+          <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
+          <p id="login-message" class="form-message" role="alert"></p>
+          <button class="button button-dark" type="submit">Sign in <span aria-hidden="true">→</span></button>
+        </form>
+      </section>
+
+      <section id="dashboard-view" hidden>
+        <div class="dashboard-heading">
+          <div><p class="eyebrow"><span></span> Owner dashboard</p><h1>Good morning<span class="heading-period">.</span></h1></div>
+          <button class="text-button" id="logout-button" type="button">Sign out <span aria-hidden="true">↗</span></button>
+        </div>
+
+        <section class="dashboard-section" aria-labelledby="orders-title">
+          <div class="dashboard-section-heading"><div><p class="eyebrow">The latest</p><h2 id="orders-title">Orders</h2></div><span class="dashboard-count" id="order-count">0</span></div>
+          <p id="dashboard-message" class="notice" role="status" hidden></p>
+          <div id="orders-list" class="orders-list"><p class="loading-message">Loading orders…</p></div>
+        </section>
+
+        <section class="dashboard-section menu-management" aria-labelledby="manage-menu-title">
+          <div class="dashboard-section-heading"><div><p class="eyebrow">What's cooking</p><h2 id="manage-menu-title">Menu items</h2></div></div>
+          <form id="item-form" class="item-form">
+            <input name="id" type="hidden">
+            <div class="item-form-heading"><h3 id="item-form-title">Add to the menu</h3><button class="text-button" id="cancel-edit" type="button" hidden>Cancel edit</button></div>
+            <div class="item-form-grid">
+              <label>Dish name<input name="name" required maxlength="100" placeholder="e.g. Sunday tomato tart"></label>
+              <label>Category<input name="category" required maxlength="48" placeholder="e.g. Lunch"></label>
+              <label>Price<input name="price" type="number" min="0.01" max="100000" step="0.01" required placeholder="0.00"></label>
+              <input name="imageUrl" type="hidden">
+              <label>Upload photo <span class="optional-label">Required for new items · JPG, PNG, or WebP, up to 5 MB</span><input name="image" type="file" accept="image/jpeg,image/png,image/webp"></label>
+              <label class="item-description">Description<textarea name="description" rows="2" maxlength="500" placeholder="A few words about the dish"></textarea></label>
+            </div>
+            <p id="item-message" class="form-message" role="status"></p>
+            <button class="button button-dark" id="save-item-button" type="submit">Add menu item <span aria-hidden="true">+</span></button>
+          </form>
+          <div id="items-list" class="items-list"><p class="loading-message">Loading menu…</p></div>
+        </section>
+      </section>
+    </main>
+    <footer class="site-footer admin-footer"><a class="wordmark footer-wordmark" href="/"><span class="wordmark-mark">N</span><span>Nico's Food</span></a><p>Made with care, to be shared.</p></footer>
+  </body>
+</html>

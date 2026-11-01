@@ -1,0 +1,4 @@
+ADMIN_PASSWORD=replace-with-a-private-password-of-at-least-12-characters
+SESSION_SECRET=replace-with-at-least-32-random-characters
+# Optional
+# ORDER_WEBHOOK_URL=https://example.com/orders
