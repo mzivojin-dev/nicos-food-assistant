@@ -79,6 +79,7 @@
     <path d="M280 205 q30 -22 60 2"/>
   </g>
 
+  <g transform="translate(1310 730) scale(0.8) translate(-1340 -760)">
   <ellipse cx="1420" cy="880" rx="150" ry="70" fill="#3a2010" opacity="0.35" filter="url(#shadow)"/>
   <rect x="1270" y="790" width="300" height="150" rx="40" fill="#9b4a2a" transform="rotate(-6 1420 865)"/>
   <rect x="1290" y="810" width="260" height="110" rx="30" fill="#c9ab5a" transform="rotate(-6 1420 865)"/>
@@ -92,8 +93,10 @@
     <ellipse cx="1395" cy="890" rx="18" ry="10"/>
     <ellipse cx="1440" cy="878" rx="18" ry="10"/>
   </g>
+  </g>
 
   <!-- Mici on a platter -->
+  <g transform="translate(580 330) scale(0.9) translate(-760 -250)">
   <ellipse cx="770" cy="265" rx="240" ry="140" fill="#2c1a0e" opacity="0.35" filter="url(#shadow)"/>
   <ellipse cx="760" cy="250" rx="235" ry="136" fill="url(#plate)" stroke="#d3c5a6" stroke-width="4"/>
   <g>
@@ -111,6 +114,23 @@
   <ellipse cx="612" cy="268" rx="22" ry="14" fill="#d9b02b"/>
   <ellipse cx="622" cy="262" rx="8" ry="5" fill="#f3d860"/>
 
+  </g>
+
+  <!-- Dill sprig on the table -->
+  <g stroke="#4d6a1e" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M190 850 Q210 740 300 660"/>
+    <path d="M205 800 Q250 780 268 790"/>
+    <path d="M214 752 Q255 740 270 716"/>
+  </g>
+  <g fill="#8fae3d" stroke="#4d6a1e" stroke-width="2">
+    <ellipse cx="200" cy="800" rx="16" ry="7" transform="rotate(-70 200 800)"/>
+    <ellipse cx="216" cy="752" rx="16" ry="7" transform="rotate(-50 216 752)"/>
+    <ellipse cx="252" cy="708" rx="16" ry="7" transform="rotate(-35 252 708)"/>
+    <ellipse cx="284" cy="678" rx="16" ry="7" transform="rotate(-30 284 678)"/>
+    <ellipse cx="236" cy="792" rx="16" ry="7" transform="rotate(25 236 792)"/>
+    <ellipse cx="262" cy="740" rx="14" ry="6" transform="rotate(10 262 740)"/>
+  </g>
+
   <!-- Mamaliga on a wooden board -->
   <rect x="370" y="640" width="380" height="165" rx="22" fill="#c79a5e" stroke="#8a5c30" stroke-width="5"/>
   <ellipse cx="560" cy="722" rx="158" ry="70" fill="url(#polenta)"/>
@@ -127,6 +147,7 @@
   <ellipse cx="600" cy="700" rx="46" ry="26" fill="url(#cream)"/>
 
   <!-- Papanasi -->
+  <g transform="translate(960 720) scale(0.9) translate(-980 -800)">
   <ellipse cx="985" cy="820" rx="185" ry="160" fill="#2c1a0e" opacity="0.3" filter="url(#shadow)"/>
   <circle cx="980" cy="800" r="168" fill="url(#plate)" stroke="#d3c5a6" stroke-width="4"/>
   <g>
@@ -149,7 +170,10 @@
     <circle cx="1040" cy="790" r="3"/>
   </g>
 
+  </g>
+
   <!-- Sarmale in a clay pot -->
+  <g transform="translate(1310 730) scale(0.8) translate(-1340 -760)">
   <ellipse cx="1350" cy="790" rx="215" ry="170" fill="#2c1a0e" opacity="0.4" filter="url(#shadow)"/>
   <ellipse cx="1340" cy="760" rx="200" ry="160" fill="url(#clay)"/>
   <ellipse cx="1340" cy="760" rx="176" ry="136" fill="#4d2310"/>
@@ -172,7 +196,10 @@
     <path d="M1400 880 q14 -22 30 -8 q-16 12 -30 8z"/>
   </g>
 
+  </g>
+
   <!-- Ciorba in a bowl -->
+  <g transform="translate(1040 330) scale(0.9) translate(-1130 -330)">
   <ellipse cx="1140" cy="352" rx="245" ry="228" fill="#2c1a0e" opacity="0.4" filter="url(#shadow)"/>
   <circle cx="1130" cy="330" r="235" fill="url(#bowl)"/>
   <circle cx="1130" cy="330" r="200" fill="#efe6d2"/>
@@ -205,5 +232,6 @@
     <circle cx="1088" cy="262" r="5"/>
     <circle cx="1232" cy="312" r="5"/>
     <circle cx="1040" cy="402" r="5"/>
+  </g>
   </g>
 </svg>
