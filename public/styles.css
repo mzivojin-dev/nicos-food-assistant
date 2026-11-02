@@ -28,7 +28,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .site-nav { display: flex; align-items: center; gap: 36px; font-size: 13px; font-weight: 600; }
 .nav-order span, .owner-link span { color: var(--tomato); padding-left: 4px; }
 .hero { position: relative; min-height: 550px; height: min(670px, 71vw); overflow: hidden; color: var(--white); background: #394038; }
-.hero-photo { position: absolute; inset: 0; background-image: linear-gradient(90deg, rgb(29 35 28 / 72%) 0%, rgb(29 35 28 / 35%) 48%, rgb(29 35 28 / 5%) 100%), url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=2200&q=90'); background-size: cover; background-position: center 54%; animation: photo-arrive 900ms ease-out both; }
+.hero-photo { position: absolute; inset: 0; background-image: linear-gradient(90deg, rgb(29 35 28 / 72%) 0%, rgb(29 35 28 / 35%) 48%, rgb(29 35 28 / 5%) 100%), url('/images/hero/romanian-table.jpg'); background-size: cover; background-position: center 54%; animation: photo-arrive 900ms ease-out both; }
 .hero-content { position: relative; z-index: 1; width: min(1120px, 86%); margin: 0 auto; padding-top: clamp(110px, 15vw, 190px); animation: content-arrive 700ms 100ms both; }
 .eyebrow { margin: 0 0 16px; color: var(--green); font-size: 10px; line-height: 1.4; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; }
 .eyebrow span { display: inline-block; width: 7px; height: 7px; margin: 0 8px 1px 0; border-radius: 50%; background: var(--tomato); }

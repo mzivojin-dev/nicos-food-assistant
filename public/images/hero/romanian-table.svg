@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a5234"/>
+      <stop offset="1" stop-color="#4a2f1d"/>
+    </linearGradient>
+    <linearGradient id="linen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f0e0"/>
+      <stop offset="1" stop-color="#e9decb"/>
+    </linearGradient>
+    <radialGradient id="bowl" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#e0d2b6"/>
+    </radialGradient>
+    <radialGradient id="soup" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#eeb36c"/>
+      <stop offset="1" stop-color="#c46f36"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#e4d9c3"/>
+    </radialGradient>
+    <radialGradient id="clay" cx="0.45" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#c77a4a"/>
+      <stop offset="1" stop-color="#6e3418"/>
+    </radialGradient>
+    <radialGradient id="roll" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#c3cc7e"/>
+      <stop offset="1" stop-color="#5f6e2c"/>
+    </radialGradient>
+    <radialGradient id="mici" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#b06a36"/>
+      <stop offset="1" stop-color="#5a2c14"/>
+    </radialGradient>
+    <radialGradient id="pap" cx="0.45" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#eec07a"/>
+      <stop offset="1" stop-color="#a86a2e"/>
+    </radialGradient>
+    <radialGradient id="cream" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ece4d0"/>
+    </radialGradient>
+    <radialGradient id="polenta" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#f8d874"/>
+      <stop offset="1" stop-color="#e0a93e"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <pattern id="ie" width="32" height="32" patternUnits="userSpaceOnUse">
+      <rect width="32" height="32" fill="#fbf4e4"/>
+      <path d="M6 6 L12 12 M12 6 L6 12" stroke="#b3322a" stroke-width="3" stroke-linecap="round"/>
+      <path d="M22 6 L26 12 L22 18 L18 12 Z" fill="#1f1f1f"/>
+      <path d="M6 22 L12 28 M12 22 L6 28" stroke="#b3322a" stroke-width="3" stroke-linecap="round"/>
+      <path d="M22 22 L26 28 L22 34 L18 28 Z" fill="#1f1f1f" transform="translate(0 -4)"/>
+    </pattern>
+  </defs>
+
+  <!-- Table and linen -->
+  <rect width="1600" height="1000" fill="url(#wood)"/>
+  <g stroke="#3a2415" stroke-width="3" opacity="0.35">
+    <line x1="0" y1="120" x2="1600" y2="120"/>
+    <line x1="0" y1="460" x2="1600" y2="460"/>
+    <line x1="0" y1="880" x2="1600" y2="880"/>
+  </g>
+  <rect x="70" y="70" width="1460" height="860" rx="6" fill="url(#linen)"/>
+  <rect x="70" y="70" width="1460" height="36" fill="url(#ie)"/>
+  <rect x="70" y="894" width="1460" height="36" fill="url(#ie)"/>
+  <rect x="70" y="106" width="36" height="788" fill="url(#ie)"/>
+  <rect x="1494" y="106" width="36" height="788" fill="url(#ie)"/>
+
+  <!-- Bread, pickles and cozonac in the background -->
+  <ellipse cx="220" cy="230" rx="170" ry="92" fill="#3a2010" opacity="0.4" filter="url(#shadow)"/>
+  <ellipse cx="210" cy="215" rx="150" ry="80" fill="#b87a3e"/>
+  <ellipse cx="210" cy="205" rx="130" ry="62" fill="#cf9250"/>
+  <g stroke="#f0d2a0" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M120 200 q40 -30 80 0"/>
+    <path d="M200 185 q40 -30 80 0"/>
+    <path d="M280 205 q30 -22 60 2"/>
+  </g>
+
+  <ellipse cx="1420" cy="880" rx="150" ry="70" fill="#3a2010" opacity="0.35" filter="url(#shadow)"/>
+  <rect x="1270" y="790" width="300" height="150" rx="40" fill="#9b4a2a" transform="rotate(-6 1420 865)"/>
+  <rect x="1290" y="810" width="260" height="110" rx="30" fill="#c9ab5a" transform="rotate(-6 1420 865)"/>
+  <g fill="#8fae3d" stroke="#4d6a1e" stroke-width="2" transform="rotate(-6 1420 865)">
+    <ellipse cx="1330" cy="850" rx="18" ry="10"/>
+    <ellipse cx="1370" cy="835" rx="18" ry="10"/>
+    <ellipse cx="1410" cy="848" rx="18" ry="10"/>
+    <ellipse cx="1450" cy="832" rx="18" ry="10"/>
+    <ellipse cx="1490" cy="846" rx="18" ry="10"/>
+    <ellipse cx="1350" cy="880" rx="18" ry="10"/>
+    <ellipse cx="1395" cy="890" rx="18" ry="10"/>
+    <ellipse cx="1440" cy="878" rx="18" ry="10"/>
+  </g>
+
+  <!-- Mici on a platter -->
+  <ellipse cx="770" cy="265" rx="240" ry="140" fill="#2c1a0e" opacity="0.35" filter="url(#shadow)"/>
+  <ellipse cx="760" cy="250" rx="235" ry="136" fill="url(#plate)" stroke="#d3c5a6" stroke-width="4"/>
+  <g>
+    <rect x="-75" y="-25" width="150" height="50" rx="25" fill="url(#mici)" transform="translate(680 220) rotate(-12)"/>
+    <rect x="-75" y="-25" width="150" height="50" rx="25" fill="url(#mici)" transform="translate(790 205) rotate(8)"/>
+    <rect x="-75" y="-25" width="150" height="50" rx="25" fill="url(#mici)" transform="translate(860 255) rotate(-4)"/>
+    <rect x="-75" y="-25" width="150" height="50" rx="25" fill="url(#mici)" transform="translate(720 288) rotate(14)"/>
+    <rect x="-75" y="-25" width="150" height="50" rx="25" fill="url(#mici)" transform="translate(830 310) rotate(-18)"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.18" fill="none">
+    <path d="M640 210 q30 -8 60 -2"/>
+    <path d="M750 196 q30 -8 60 -2"/>
+    <path d="M820 246 q30 -8 60 -2"/>
+  </g>
+  <ellipse cx="612" cy="268" rx="22" ry="14" fill="#d9b02b"/>
+  <ellipse cx="622" cy="262" rx="8" ry="5" fill="#f3d860"/>
+
+  <!-- Mamaliga on a wooden board -->
+  <rect x="370" y="640" width="380" height="165" rx="22" fill="#c79a5e" stroke="#8a5c30" stroke-width="5"/>
+  <ellipse cx="560" cy="722" rx="158" ry="70" fill="url(#polenta)"/>
+  <g fill="#d89a2e" opacity="0.6">
+    <circle cx="500" cy="700" r="5"/><circle cx="530" cy="745" r="4"/>
+    <circle cx="600" cy="705" r="5"/><circle cx="625" cy="748" r="4"/>
+    <circle cx="470" cy="735" r="4"/><circle cx="585" cy="745" r="5"/>
+  </g>
+  <g fill="#fffdf5" stroke="#e3dccb" stroke-width="2">
+    <polygon points="520,690 540,684 548,700 530,708"/>
+    <polygon points="600,738 622,732 630,748 608,756"/>
+    <polygon points="470,722 490,716 496,732 476,738"/>
+  </g>
+  <ellipse cx="600" cy="700" rx="46" ry="26" fill="url(#cream)"/>
+
+  <!-- Papanasi -->
+  <ellipse cx="985" cy="820" rx="185" ry="160" fill="#2c1a0e" opacity="0.3" filter="url(#shadow)"/>
+  <circle cx="980" cy="800" r="168" fill="url(#plate)" stroke="#d3c5a6" stroke-width="4"/>
+  <g>
+    <circle cx="925" cy="770" r="66" fill="url(#pap)"/>
+    <circle cx="1025" cy="752" r="66" fill="url(#pap)"/>
+    <circle cx="985" cy="845" r="66" fill="url(#pap)"/>
+  </g>
+  <g fill="#8f1d36">
+    <circle cx="925" cy="770" r="18"/>
+    <circle cx="1025" cy="752" r="18"/>
+    <circle cx="985" cy="845" r="18"/>
+  </g>
+  <g fill="url(#cream)">
+    <ellipse cx="915" cy="745" rx="32" ry="16"/>
+    <ellipse cx="1015" cy="728" rx="32" ry="16"/>
+    <ellipse cx="975" cy="822" rx="32" ry="16"/>
+  </g>
+  <g fill="#7a1a2e" opacity="0.8">
+    <circle cx="1000" cy="800" r="4"/>
+    <circle cx="1040" cy="790" r="3"/>
+  </g>
+
+  <!-- Sarmale in a clay pot -->
+  <ellipse cx="1350" cy="790" rx="215" ry="170" fill="#2c1a0e" opacity="0.4" filter="url(#shadow)"/>
+  <ellipse cx="1340" cy="760" rx="200" ry="160" fill="url(#clay)"/>
+  <ellipse cx="1340" cy="760" rx="176" ry="136" fill="#4d2310"/>
+  <g stroke="#3f4a1e" stroke-width="3">
+    <ellipse cx="1280" cy="730" rx="50" ry="27" fill="url(#roll)" transform="rotate(-18 1280 730)"/>
+    <ellipse cx="1350" cy="712" rx="50" ry="27" fill="url(#roll)" transform="rotate(10 1350 712)"/>
+    <ellipse cx="1414" cy="740" rx="50" ry="27" fill="url(#roll)" transform="rotate(-26 1414 740)"/>
+    <ellipse cx="1240" cy="786" rx="50" ry="27" fill="url(#roll)" transform="rotate(24 1240 786)"/>
+    <ellipse cx="1310" cy="796" rx="50" ry="27" fill="url(#roll)" transform="rotate(-8 1310 796)"/>
+    <ellipse cx="1380" cy="800" rx="50" ry="27" fill="url(#roll)" transform="rotate(16 1380 800)"/>
+    <ellipse cx="1440" cy="782" rx="48" ry="26" fill="url(#roll)" transform="rotate(-14 1440 782)"/>
+    <ellipse cx="1300" cy="842" rx="50" ry="27" fill="url(#roll)" transform="rotate(8 1300 842)"/>
+    <ellipse cx="1372" cy="852" rx="50" ry="27" fill="url(#roll)" transform="rotate(-20 1372 852)"/>
+  </g>
+  <path d="M1220 760 q60 -26 120 -6 t120 -10 q-20 40 -90 40 t-150 -24z" fill="#b8402a" opacity="0.75"/>
+  <ellipse cx="1330" cy="770" rx="44" ry="24" fill="url(#cream)"/>
+  <g stroke="#4d6a1e" stroke-width="3" fill="#8fae3d" opacity="0.95">
+    <path d="M1260 700 q14 -22 30 -8 q-16 12 -30 8z"/>
+    <path d="M1405 712 q14 -22 30 -8 q-16 12 -30 8z"/>
+    <path d="M1400 880 q14 -22 30 -8 q-16 12 -30 8z"/>
+  </g>
+
+  <!-- Ciorba in a bowl -->
+  <ellipse cx="1140" cy="352" rx="245" ry="228" fill="#2c1a0e" opacity="0.4" filter="url(#shadow)"/>
+  <circle cx="1130" cy="330" r="235" fill="url(#bowl)"/>
+  <circle cx="1130" cy="330" r="200" fill="#efe6d2"/>
+  <circle cx="1130" cy="330" r="186" fill="url(#soup)"/>
+  <g fill="#e4642c" stroke="#b5461a" stroke-width="2">
+    <ellipse cx="1072" cy="292" rx="13" ry="9"/>
+    <ellipse cx="1168" cy="268" rx="13" ry="9"/>
+    <ellipse cx="1196" cy="344" rx="13" ry="9"/>
+    <ellipse cx="1098" cy="390" rx="13" ry="9"/>
+    <ellipse cx="1048" cy="350" rx="13" ry="9"/>
+    <ellipse cx="1170" cy="402" rx="13" ry="9"/>
+  </g>
+  <g fill="#f5dc8e" stroke="#c9a64e" stroke-width="2">
+    <rect x="1020" y="330" width="22" height="22" rx="3" transform="rotate(20 1031 341)"/>
+    <rect x="1126" y="250" width="22" height="22" rx="3" transform="rotate(-14 1137 261)"/>
+    <rect x="1215" y="390" width="22" height="22" rx="3" transform="rotate(30 1226 401)"/>
+    <rect x="1080" y="420" width="22" height="22" rx="3" transform="rotate(8 1091 431)"/>
+    <rect x="1140" y="410" width="22" height="22" rx="3" transform="rotate(-24 1151 421)"/>
+  </g>
+  <ellipse cx="1130" cy="335" rx="66" ry="42" fill="url(#cream)"/>
+  <path d="M1100 330 q14 -14 28 -2 t28 -4 t26 2" fill="none" stroke="#e6dcc4" stroke-width="3"/>
+  <g stroke="#4d6a1e" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M1000 290 q18 -20 36 -6"/>
+    <path d="M1050 250 q16 -16 30 -2"/>
+    <path d="M1240 300 q18 -18 32 -2"/>
+    <path d="M1196 430 q16 -14 28 0"/>
+  </g>
+  <g fill="#8fae3d">
+    <circle cx="1040" cy="282" r="5"/>
+    <circle cx="1088" cy="262" r="5"/>
+    <circle cx="1232" cy="312" r="5"/>
+    <circle cx="1040" cy="402" r="5"/>
+  </g>
+</svg>
