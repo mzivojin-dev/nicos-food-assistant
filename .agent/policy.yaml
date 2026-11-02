@@ -1,0 +1,21 @@
+# Read by the Hub from the default branch before each run (SPEC §3.3).
+version: 1
+commands:
+  install: "npm ci"
+  # TODO: test command not detected. Set it, e.g. test: <command>
+  # TODO: lint command not detected. Set it, e.g. lint: <command>
+paths:
+  allow: ["**"]
+  # .github/workflows/** and .agent/** are always denied
+  deny: [".github/workflows/**", ".agent/**", "**/*.pem", ".env*"]
+tests:
+  required: true
+  onFailure: draft_pr # draft_pr | fail
+limits: {} # maxTurns, maxWallClockMinutes, maxBudgetUsd; may only lower the global caps
+model: default
+merge:
+  method: squash # squash | merge | rebase
+  autoMerge: { enabled: false, paths: [] }
+secrets: []
+mcp: { enabled: false }
+image: default
