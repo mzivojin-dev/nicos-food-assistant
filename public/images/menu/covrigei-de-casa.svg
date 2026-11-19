@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Homemade Romanian covrigei on a wooden board">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#f6ead6"/>
+      <stop offset="1" stop-color="#e2cba6"/>
+    </radialGradient>
+    <linearGradient id="dough" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d98b3a"/>
+      <stop offset="1" stop-color="#9c5418"/>
+    </linearGradient>
+    <g id="covrig" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-62 30 C-95 -10 -70 -62 -25 -55 C10 -50 20 -10 0 15 C-20 -10 -10 -50 25 -55 C70 -62 95 -10 62 30 C40 58 -40 58 -62 30 Z" stroke="#6e3a0e" stroke-width="26"/>
+      <path d="M-62 30 C-95 -10 -70 -62 -25 -55 C10 -50 20 -10 0 15 C-20 -10 -10 -50 25 -55 C70 -62 95 -10 62 30 C40 58 -40 58 -62 30 Z" stroke="url(#dough)" stroke-width="20"/>
+      <g fill="#fffaf0" stroke="none">
+        <circle cx="-70" cy="0" r="2.5"/><circle cx="-50" cy="-48" r="2.5"/><circle cx="-12" cy="-40" r="2.5"/>
+        <circle cx="14" cy="-38" r="2.5"/><circle cx="52" cy="-50" r="2.5"/><circle cx="72" cy="2" r="2.5"/>
+        <circle cx="30" cy="48" r="2.5"/><circle cx="-28" cy="48" r="2.5"/><circle cx="0" cy="8" r="2.5"/>
+      </g>
+      <g fill="#1f1a14" stroke="none">
+        <circle cx="-60" cy="-28" r="1.8"/><circle cx="-34" cy="-52" r="1.8"/><circle cx="40" cy="-54" r="1.8"/>
+        <circle cx="64" cy="-24" r="1.8"/><circle cx="2" cy="50" r="1.8"/><circle cx="-56" cy="38" r="1.8"/>
+      </g>
+    </g>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="330" rx="330" ry="200" fill="#a8743f"/>
+  <ellipse cx="400" cy="318" rx="318" ry="188" fill="#c08a52"/>
+  <path d="M120 270 Q400 240 680 270 M110 330 Q400 300 690 330 M130 390 Q400 365 670 390" stroke="#a8743f" stroke-width="3" fill="none" opacity="0.6"/>
+  <use href="#covrig" transform="translate(250 260) rotate(-12)"/>
+  <use href="#covrig" transform="translate(410 230) rotate(6)"/>
+  <use href="#covrig" transform="translate(560 270) rotate(18)"/>
+  <use href="#covrig" transform="translate(320 380) rotate(-4)"/>
+  <use href="#covrig" transform="translate(490 385) rotate(10)"/>
+</svg>
