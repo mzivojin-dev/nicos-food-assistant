@@ -9,6 +9,16 @@
       "id": "adf1453c-1b7c-48f6-9f09-2d14ee305d55",
       "available": true,
       "createdAt": "2026-11-01T20:30:00.000Z"
+    },
+    {
+      "name": "Covrigei de casă / Homemade Romanian pretzels",
+      "description": "Small homemade Romanian pretzels, baked golden and topped with coarse salt and seeds.",
+      "priceCents": 1500,
+      "category": "Bakery",
+      "imageUrl": "/images/menu/covrigei-de-casa.svg",
+      "id": "2dbe8990-2899-43fc-88d3-7504c585ed36",
+      "available": true,
+      "createdAt": "2026-11-19T12:00:00.000Z"
     }
   ],
   "orders": []
